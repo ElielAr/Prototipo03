@@ -1,0 +1,142 @@
+
+:root{
+    --color-primary: #C70039;
+    --color-secondary: #F39C12;
+
+
+
+}
+.presentation {
+    text-align: center;
+    padding-top: 0%;
+}
+.presentacion container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 80px 0;
+    max-width: 1200px;
+
+}
+.boton_cta{
+    display: inline-block;
+    width: 250px;
+    margin-top: 30px;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    padding: 15px 32px;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.boton_cta:hover {
+    background-color: #3498DB ; 
+    
+}
+.presentacion_img{
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+    margin-bottom: 10px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.presentacion_descripcion{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 23px;
+    text-align: justify;
+}
+
+.subtitle{
+    color: var(--color-primary);
+    font-size: 2.5rem;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.about{
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 80px;
+    justify-items: center;
+    align-items: center;
+
+}
+.acerca_img{
+    text-align: center;
+}
+
+.acerca_img--left{
+    text-align: left;
+
+}
+.acerca_foto{
+    max-width: 80%;
+
+}
+
+.acerca_parrafo{
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-size: 18px;
+
+}
+
+/* Testimonios */
+
+.testimony_grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.testimony_item{
+    width: 95%;
+    margin: 0 auto;
+    background: var(--color-secondary);
+    box-shadow: 0 8px 10px rgba(66, 66s, 66, .5);
+    border-radius: 7px;
+    padding: 30px 25px;
+    color: #17202A;
+    margin-bottom: 50px;
+}
+
+.testimony_person{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.testimony_img{
+    width: 100px;
+    min-width: 100px;
+    min-height: 100px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 60%;
+    border: 3px solid #fff;
+    margin-right: 30px;
+
+}
+
+.testimony_name{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+
+}
+.testimony_verification{
+    color: #EAFAA0;
+    font-weight: 700;
+
+}
+.testimony_review{
+    font-weight: 300;
+    color: black;
+}
